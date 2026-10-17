@@ -1,0 +1,33 @@
+version: "3.8"
+
+services:
+  api:
+    build:
+      context: ./restful-booker
+      dockerfile: Dockerfile
+    container_name: restful-booker-api
+    ports:
+      - "3001:3001"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3001/ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 10s
+
+  tests:
+    build:
+      context: .
+      dockerfile: autotests/Dockerfile
+    container_name: restful-booker-tests
+    depends_on:
+      api:
+        condition: service_healthy
+    environment:
+      - BASE_URL=http://api:3001
+      - ADMIN_USERNAME=${ADMIN_USERNAME}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD}
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./allure-results:/app/allure-results
+    command: pytest tests/ --alluredir=/app/allure-results
