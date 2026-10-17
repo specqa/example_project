@@ -15,9 +15,6 @@ jobs:
       - name: Checkout autotests
         uses: actions/checkout@v4
 
-      - name: Clone Restful Booker API
-        run: git clone https://github.com/mwinteringham/restful-booker.git
-
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
