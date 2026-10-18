@@ -1,0 +1,13 @@
+Status: 200 OK
+
+{
+  "firstname": "Alice",
+  "lastname": "Wonderland",
+  "totalprice": 638,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-10-27",
+    "checkout": "2026-11-05"
+  },
+  "additionalneeds": "Tea"
+}

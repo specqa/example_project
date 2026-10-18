@@ -1,0 +1,15 @@
+Status: 200 OK
+
+{
+  "bookingid": 26,
+  "booking": {
+    "firstname": "Scott",
+    "lastname": "Mcneil",
+    "totalprice": 531,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-10-26",
+      "checkout": "2026-11-03"
+    }
+  }
+}

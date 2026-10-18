@@ -1,0 +1,16 @@
+Status: 200 OK
+
+{
+  "bookingid": 11,
+  "booking": {
+    "firstname": "Donna",
+    "lastname": "Fields",
+    "totalprice": 279,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-11-19",
+      "checkout": "2026-12-18"
+    },
+    "additionalneeds": null
+  }
+}

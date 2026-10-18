@@ -1,0 +1,13 @@
+Status: 200 OK
+
+{
+  "firstname": "NewName",
+  "lastname": "Mendoza",
+  "totalprice": 264,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-09-27",
+    "checkout": "2026-10-25"
+  },
+  "additionalneeds": "Parking"
+}

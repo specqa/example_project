@@ -1,0 +1,16 @@
+Status: 200 OK
+
+{
+  "bookingid": 21,
+  "booking": {
+    "firstname": "Faith",
+    "lastname": "Quinn",
+    "totalprice": 681,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-10-26",
+      "checkout": "2026-11-12"
+    },
+    "additionalneeds": "Pet friendly"
+  }
+}

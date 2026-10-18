@@ -1,0 +1,15 @@
+PUT http://api:3001/booking/999999
+
+Headers:
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: application/json
+Connection: keep-alive
+Content-Type: application/json
+Cookie: ***
+Content-Length: 22
+
+Body:
+{
+  "firstname": "Ghost"
+}

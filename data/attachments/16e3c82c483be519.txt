@@ -1,0 +1,16 @@
+Status: 200 OK
+
+{
+  "bookingid": 28,
+  "booking": {
+    "firstname": "Brittany",
+    "lastname": "Chapman",
+    "totalprice": 580,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-11-27",
+      "checkout": "2026-12-26"
+    },
+    "additionalneeds": "Parking"
+  }
+}

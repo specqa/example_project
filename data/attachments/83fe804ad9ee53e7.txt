@@ -1,0 +1,16 @@
+Status: 200 OK
+
+{
+  "bookingid": 27,
+  "booking": {
+    "firstname": "Rita",
+    "lastname": "Long",
+    "totalprice": 605,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-09-20",
+      "checkout": "2026-10-16"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}

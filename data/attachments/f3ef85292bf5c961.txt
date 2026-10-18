@@ -1,0 +1,13 @@
+Status: 200 OK
+
+{
+  "firstname": "Mark",
+  "lastname": "Melton",
+  "totalprice": 960,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-12-16",
+    "checkout": "2027-01-05"
+  },
+  "additionalneeds": "Late checkout"
+}
