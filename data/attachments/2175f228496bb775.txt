@@ -1,0 +1,16 @@
+Status: 200 OK
+
+{
+  "bookingid": 29,
+  "booking": {
+    "firstname": "Jesus",
+    "lastname": "Ruiz",
+    "totalprice": 810,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-11-09",
+      "checkout": "2026-12-09"
+    },
+    "additionalneeds": "WiFi"
+  }
+}

@@ -1,0 +1,16 @@
+Status: 200 OK
+
+{
+  "bookingid": 15,
+  "booking": {
+    "firstname": "Michael",
+    "lastname": "Morales",
+    "totalprice": 426,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-11-07",
+      "checkout": "2026-11-28"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}

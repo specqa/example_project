@@ -1,0 +1,16 @@
+Status: 200 OK
+
+{
+  "bookingid": 22,
+  "booking": {
+    "firstname": "Jamie",
+    "lastname": "Hutchinson",
+    "totalprice": 484,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-11-09",
+      "checkout": "2026-11-19"
+    },
+    "additionalneeds": null
+  }
+}

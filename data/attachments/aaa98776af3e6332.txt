@@ -1,0 +1,16 @@
+Status: 200 OK
+
+{
+  "bookingid": 32,
+  "booking": {
+    "firstname": "Sara",
+    "lastname": "Perez",
+    "totalprice": 781,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-12-14",
+      "checkout": "2027-01-09"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}

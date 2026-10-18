@@ -1,0 +1,16 @@
+Status: 200 OK
+
+{
+  "bookingid": 18,
+  "booking": {
+    "firstname": "Sarah",
+    "lastname": "Mora",
+    "totalprice": 672,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-10-15",
+      "checkout": "2026-11-03"
+    },
+    "additionalneeds": "Extra bed"
+  }
+}

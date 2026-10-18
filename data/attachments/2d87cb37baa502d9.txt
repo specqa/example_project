@@ -1,0 +1,16 @@
+Status: 200 OK
+
+{
+  "bookingid": 17,
+  "booking": {
+    "firstname": "Donna",
+    "lastname": "Castro",
+    "totalprice": 431,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-09-22",
+      "checkout": "2026-10-10"
+    },
+    "additionalneeds": "Parking"
+  }
+}

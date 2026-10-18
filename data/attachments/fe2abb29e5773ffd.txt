@@ -1,0 +1,16 @@
+Status: 200 OK
+
+{
+  "bookingid": 25,
+  "booking": {
+    "firstname": "Sabrina",
+    "lastname": "Lewis",
+    "totalprice": 666,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-12-11",
+      "checkout": "2026-12-24"
+    },
+    "additionalneeds": "Pet friendly"
+  }
+}

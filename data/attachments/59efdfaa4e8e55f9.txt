@@ -1,0 +1,16 @@
+Status: 200 OK
+
+{
+  "bookingid": 13,
+  "booking": {
+    "firstname": "David",
+    "lastname": "Cantrell",
+    "totalprice": 166,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-09-24",
+      "checkout": "2026-10-19"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}

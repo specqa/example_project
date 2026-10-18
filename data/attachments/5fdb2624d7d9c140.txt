@@ -1,0 +1,16 @@
+Status: 200 OK
+
+{
+  "bookingid": 35,
+  "booking": {
+    "firstname": "Valerie",
+    "lastname": "Marquez",
+    "totalprice": 597,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-11-01",
+      "checkout": "2026-11-08"
+    },
+    "additionalneeds": "Late checkout"
+  }
+}

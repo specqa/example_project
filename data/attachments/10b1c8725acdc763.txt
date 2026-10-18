@@ -1,0 +1,16 @@
+Status: 200 OK
+
+{
+  "bookingid": 30,
+  "booking": {
+    "firstname": "David",
+    "lastname": "Phillips",
+    "totalprice": 167,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-12-10",
+      "checkout": "2027-01-06"
+    },
+    "additionalneeds": null
+  }
+}

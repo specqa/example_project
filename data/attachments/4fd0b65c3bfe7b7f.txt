@@ -1,0 +1,13 @@
+Status: 200 OK
+
+{
+  "firstname": "James",
+  "lastname": "Reyes",
+  "totalprice": 682,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-10-13",
+    "checkout": "2026-11-06"
+  },
+  "additionalneeds": "Breakfast"
+}

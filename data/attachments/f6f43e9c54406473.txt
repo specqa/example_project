@@ -1,0 +1,5 @@
+Status: 200 OK
+
+{
+  "token": "7e33e31025f5dc2"
+}

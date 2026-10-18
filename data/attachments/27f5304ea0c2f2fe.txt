@@ -1,0 +1,16 @@
+Status: 200 OK
+
+{
+  "bookingid": 21,
+  "booking": {
+    "firstname": "Tracy",
+    "lastname": "Perez",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-12-11",
+      "checkout": "2026-12-18"
+    },
+    "additionalneeds": "Extra bed"
+  }
+}
