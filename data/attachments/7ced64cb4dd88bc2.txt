@@ -1,0 +1,16 @@
+Status: 200 OK
+
+{
+  "bookingid": 16,
+  "booking": {
+    "firstname": "Lori",
+    "lastname": "Greene",
+    "totalprice": 681,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-09-22",
+      "checkout": "2026-10-05"
+    },
+    "additionalneeds": "Extra bed"
+  }
+}

@@ -1,0 +1,13 @@
+Status: 200 OK
+
+{
+  "firstname": "Shirley",
+  "lastname": "Lindsey",
+  "totalprice": 727,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-08-01",
+    "checkout": "2026-08-10"
+  },
+  "additionalneeds": null
+}

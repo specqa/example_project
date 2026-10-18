@@ -1,0 +1,22 @@
+POST http://api:3001/booking
+
+Headers:
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: application/json
+Connection: keep-alive
+Content-Type: application/json
+Content-Length: 185
+
+Body:
+{
+  "firstname": "Anthony",
+  "lastname": "Foster",
+  "totalprice": 784,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-11-25",
+    "checkout": "2026-12-11"
+  },
+  "additionalneeds": "Parking"
+}

@@ -1,0 +1,23 @@
+POST http://api:3001/booking
+
+Headers:
+User-Agent: python-requests/2.32.3
+Accept-Encoding: gzip, deflate
+Accept: application/json
+Connection: keep-alive
+Content-Type: application/json
+Content-Length: 220
+
+Body:
+{
+  "firstname": "Kim",
+  "lastname": "Gordon",
+  "totalprice": 975,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-09-28",
+    "checkout": "2026-10-25"
+  },
+  "additionalneeds": "Extra bed",
+  "extra_field": "should be ignored"
+}

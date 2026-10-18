@@ -1,5 +1,0 @@
-Status: 200 OK
-
-{
-  "token": "96c4d9b14ebe702"
-}

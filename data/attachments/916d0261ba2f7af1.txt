@@ -1,0 +1,13 @@
+Status: 200 OK
+
+{
+  "firstname": "Eric",
+  "lastname": "Francis",
+  "totalprice": 651,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-10-05",
+    "checkout": "2026-10-15"
+  },
+  "additionalneeds": "Dinner"
+}

@@ -1,0 +1,13 @@
+Status: 200 OK
+
+{
+  "firstname": "Timothy",
+  "lastname": "NewLastName",
+  "totalprice": 345,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-10-05",
+    "checkout": "2026-10-13"
+  },
+  "additionalneeds": "Parking"
+}
