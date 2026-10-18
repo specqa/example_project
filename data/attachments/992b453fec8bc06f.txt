@@ -1,0 +1,16 @@
+Status: 200 OK
+
+{
+  "bookingid": 22,
+  "booking": {
+    "firstname": "Carrie",
+    "lastname": "Miller",
+    "totalprice": 813,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-10-11",
+      "checkout": "2026-10-22"
+    },
+    "additionalneeds": null
+  }
+}

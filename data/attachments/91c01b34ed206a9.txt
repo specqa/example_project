@@ -1,0 +1,13 @@
+Status: 200 OK
+
+{
+  "firstname": "Andrew",
+  "lastname": "Mason",
+  "totalprice": 847,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-09-21",
+    "checkout": "2026-10-06"
+  },
+  "additionalneeds": "Late checkout"
+}

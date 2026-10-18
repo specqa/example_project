@@ -1,0 +1,16 @@
+Status: 200 OK
+
+{
+  "bookingid": 27,
+  "booking": {
+    "firstname": "Heather",
+    "lastname": "Byrd",
+    "totalprice": 91,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-11-22",
+      "checkout": "2026-12-20"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}

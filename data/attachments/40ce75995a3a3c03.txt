@@ -1,0 +1,16 @@
+Status: 200 OK
+
+{
+  "bookingid": 14,
+  "booking": {
+    "firstname": "Alicia",
+    "lastname": "Nguyen",
+    "totalprice": 74,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-11-09",
+      "checkout": "2026-11-25"
+    },
+    "additionalneeds": "Late checkout"
+  }
+}

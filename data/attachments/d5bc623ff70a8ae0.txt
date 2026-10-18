@@ -1,0 +1,16 @@
+Status: 200 OK
+
+{
+  "bookingid": 23,
+  "booking": {
+    "firstname": "Kim",
+    "lastname": "Henry",
+    "totalprice": 834,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-11-29",
+      "checkout": "2026-12-23"
+    },
+    "additionalneeds": "Pet friendly"
+  }
+}

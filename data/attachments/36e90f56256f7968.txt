@@ -1,0 +1,16 @@
+Status: 200 OK
+
+{
+  "bookingid": 29,
+  "booking": {
+    "firstname": "Wendy",
+    "lastname": "Hall",
+    "totalprice": 762,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-12-01",
+      "checkout": "2026-12-24"
+    },
+    "additionalneeds": "WiFi"
+  }
+}

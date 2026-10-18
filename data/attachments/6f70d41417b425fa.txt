@@ -1,0 +1,13 @@
+Status: 200 OK
+
+{
+  "firstname": "John",
+  "lastname": "Love",
+  "totalprice": 999,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-09-21",
+    "checkout": "2026-10-02"
+  },
+  "additionalneeds": "WiFi"
+}

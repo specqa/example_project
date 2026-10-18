@@ -1,0 +1,13 @@
+Status: 200 OK
+
+{
+  "firstname": "Alexandria",
+  "lastname": "Hansen",
+  "totalprice": 146,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-11-26",
+    "checkout": "2026-12-14"
+  },
+  "additionalneeds": "Dinner"
+}

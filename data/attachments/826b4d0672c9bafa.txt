@@ -1,0 +1,16 @@
+Status: 200 OK
+
+{
+  "bookingid": 33,
+  "booking": {
+    "firstname": "Samuel",
+    "lastname": "Weiss",
+    "totalprice": 9,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-11-04",
+      "checkout": "2026-11-30"
+    },
+    "additionalneeds": "Late checkout"
+  }
+}
