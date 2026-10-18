@@ -7,6 +7,10 @@ on:
     branches: [ main, master ]
   workflow_dispatch:
 
+# Даем права на запись, чтобы экшен мог публиковать отчет в ветку gh-pages
+permissions:
+  contents: write
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -29,21 +33,29 @@ jobs:
           docker compose up --build --abort-on-container-exit --exit-code-from tests
 
       - name: Install Allure CLI
-        if: always()
+        if: always() # Устанавливаем Allure, даже если тесты упали
         run: |
           wget https://github.com/allure-framework/allure2/releases/download/2.30.0/allure-2.30.0.tgz
           tar -zxvf allure-2.30.0.tgz -C /opt/
           sudo ln -s /opt/allure-2.30.0/bin/allure /usr/bin/allure
 
       - name: Generate Allure report
-        if: always()
+        if: always() # Генерируем отчет, даже если тесты упали
         run: |
           allure generate allure-results -o allure-report --clean
 
-      - name: Upload Allure report
+      - name: Upload Allure report as artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: allure-report
           path: allure-report/
           retention-days: 14
+
+      - name: Publish Allure report to GitHub Pages
+        if: always() # Публикуем отчет на GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: allure-report
