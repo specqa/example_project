@@ -28,14 +28,17 @@ jobs:
         run: |
           docker compose up --build --abort-on-container-exit --exit-code-from tests
 
+      - name: Install Allure CLI
+        if: always()
+        run: |
+          wget https://github.com/allure-framework/allure2/releases/download/2.30.0/allure-2.30.0.tgz
+          tar -zxvf allure-2.30.0.tgz -C /opt/
+          sudo ln -s /opt/allure-2.30.0/bin/allure /usr/bin/allure
+
       - name: Generate Allure report
         if: always()
         run: |
-          docker run --rm \
-            -v ${{ github.workspace }}/allure-results:/app/allure-results \
-            -v ${{ github.workspace }}/allure-report:/app/allure-report \
-            frankescobar/allure-docker-service:latest \
-            allure generate /app/allure-results -o /app/allure-report --clean
+          allure generate allure-results -o allure-report --clean
 
       - name: Upload Allure report
         if: always()
